@@ -32,7 +32,13 @@ Also, I added these as scripts to package.json:
 - `php artisan db:seed`
 - `composer dump-autoload`
 
-## Extra info
+## Extra Dev Info
+Could be helpful
+
+#### Creating a model. The `-m` flag creates a migration file alongside.
+- `php artisan make:model MyModelName -m`
+
+## Extra Info
 This was asked to address by the project excercise (could be helpful)
 
 ##### 1. Framework
