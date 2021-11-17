@@ -38,6 +38,17 @@ Could be helpful
 #### Creating a model. The `-m` flag creates a migration file alongside.
 - `php artisan make:model MyModelName -m`
 
+Locations:
+- **model**: app/
+- **migration**: database/migrations/
+
+#### Creating a seeder.
+- `php artisan make:seed MyModelTableSeeder`
+ 
+Location:
+- database/seeds/
+
+
 ## Extra Info
 This was asked to address by the project excercise (could be helpful)
 
